@@ -36,7 +36,9 @@ const App = () => {
   const runQuery = (e) => {
    //prevent form from submitting. Commented out
     e.preventDefault()
-    setQuery(state)
+
+    //encoding URI to account for spaces
+    setQuery(encodeURI(state))
   }
   console.log(state)
   return (
