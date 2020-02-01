@@ -35,7 +35,7 @@ const App = () => {
 
   const runQuery = (e) => {
    //prevent form from submitting. Commented out
-    // e.preventDefault()
+    e.preventDefault()
     setQuery(state)
   }
   console.log(state)
