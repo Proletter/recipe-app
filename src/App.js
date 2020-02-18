@@ -38,7 +38,7 @@ const App = () => {
     e.preventDefault()
 
     //encoding URI to account for spaces
-    setQuery(encodeURI(state))
+    setQuery(state)
   }
   console.log(state)
   return (
